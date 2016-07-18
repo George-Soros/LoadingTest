@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tj.mymodule.MaterialRefreshLayout
+    android:id="@+id/material_refresh_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:overlay="true"
+    app:progress_colors="@array/jianshu_colors"
+    app:progress_size_type="normal"
+    app:wave_show="false"
+    app:isLoadMore="true"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</com.tj.mymodule.MaterialRefreshLayout>
